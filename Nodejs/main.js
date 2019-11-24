@@ -67,7 +67,7 @@ var listner1 = function listner1() {
 
 // listener #2
 var listner2 = function listner2() {
-   console.log('listner2 executed. Let\'s check what happen\'s ');
+   console.log('listner2 executed.);
 }
 
 // Bind the connection event with the listner1 function
@@ -93,4 +93,4 @@ eventEmitter.emit('connection');
 eventListeners = require('events').EventEmitter.listenerCount(eventEmitter,'connection');
 console.log(eventListeners + " Listner(s) listening to connection event");
 
-console.log("Program Ended. now you can do some other stuff");
+console.log("Program Ended.");
